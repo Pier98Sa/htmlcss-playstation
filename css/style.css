@@ -2,3 +2,16 @@
     max-width: 70px;
     margin:10px;
 }
+
+.debug{
+    height: 800px;
+    padding-top: 112px;
+}
+
+.ms_jumbo-bg{
+    background-image: url("./img/jumbo-bg.png");
+    background-color: grey;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
