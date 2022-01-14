@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/play_logo.svg" >
 </head>
-<body>
-    <!--Inizio dell' header-->
-    <header class="fixed-top">
+<body class="ms_text-family">
+      <!--Inizio dell' header-->
+      <header class="fixed-top">
         <!--Header Top-->
         <div class="bg-dark text-end ">
-          <img class="ms_img-header " src="./img/sony_logo.svg" alt="sony">
+          <img class="ms_img-header" src="./img/sony_logo.svg" alt="sony">
         </div>
         
             
@@ -132,7 +132,7 @@
         <!--Inizio del Jumbotron-->
         <section class="jumbotron">
           <div class="container-fluid ms_jumbo-bg ">
-            <div class="row ">
+            <div class="row align-items-end">
               <div class="col-12 col-lg-5 text-white">
                 <img class="img-fluid" src="./img/returnal-hero-banner-logo.png" alt="returnal">
                 <h2>Rompi il cerchio</h2>
@@ -395,7 +395,7 @@
         <!--Fine della sezione Explore-->
 
         <!--Inizio della sezione playstation plus-->
-        <section class="ps_plus">
+        <section class="ps-plus">
 
           <div class="container-fluid ms_ps-plus_bg">
             <div class="row row-cols-1 row-cols-md-2 ">
@@ -418,7 +418,7 @@
 
         <!--Inizio della sezione Discounts-->
         <Section id="Discounts">
-          <div class="container-fluid" >
+          <div class="container" >
 
             <div class="row">
               <div class="col-12 text-center">
@@ -427,28 +427,25 @@
               </div>
             </div>
 
-            <div class="row row-cols-1 row-cols-md-3 g-3">
-              <div class="col">
-                <img class="img-fluid" src="./img/playstation-store-games-under-20-spotlight.jpg" alt="games under">
+            <div class="row row-cols-1 row-cols-md-3 ">
+              <div class="col mb-5 ">
+                <img class="img-fluid  " src="./img/playstation-store-games-under-20-spotlight.jpg" alt="games under">
 
               </div>
 
-              <div class="col">
-                <img class="img-fluid" src="./img/playstation-store-golden-week-sale-spotlight.jpg" alt=" golden week sale">
+              <div class="col mb-5">
+                <img class="img-fluid " src="./img/playstation-store-golden-week-sale-spotlight.jpg" alt=" golden week sale">
 
               </div>
 
-              <div class="col">
-                <img class="img-fluid" src="./img/playstation-store-free-to-play-spotlight.png" alt=" free to play">
+              <div class="col mb-5">
+                <img class="img-fluid " src="./img/playstation-store-free-to-play-spotlight.png" alt=" free to play">
 
               </div>
 
             </div>
 
-            <div class="row">
-
-            </div>
-
+        
           </div>
 
         </Section>
@@ -456,19 +453,124 @@
 
         <!--Inizio della sezione Ps Now-->
 
-        <section id="ps-now">
+        <section class="ps-now">
+          <div class="container-fluid ms_ps-now_bg">
+            <div class="row row-cols-1 row-cols-md-2 ">
+                <div class="col">
+                  <img class="img-fluid ms_img-ps_now" src="./img/ps-now-logo-two-column.png" alt="ps now">
+                  <p class="text-white">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
+                  <button type="button" class="btn btn-light rounded-pill">Esplora PlayStation Now</button>
+                </div>
+
+                <div class="col d-none d-md-block">
+                  <img class="img-fluid" src="./img/ps-now-april-featured-image-block.png" alt="ps now games">
+                </div>
+                
+              </div>
+          </div>
 
         </section>
 
         <!--Inizio della sezione Social-->
-        <section id="Social">
+        <section class="Social">
+          <h2 class="text-center">Seguici sui social media</h2>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 offset-sm-3">
+                <div class="row row-cols-2 row-cols-sm-4">
+                  <div class="col">
+                    <img class="img-fluid" src="./img/twitter.jpg" alt="twitter">
+                  </div>
+      
+                  <div class="col">
+                    <img class="img-fluid" src="./img/facebook.jpg" alt="twitter">
+                  </div>
+      
+                  <div class="col">
+                    <img class="img-fluid" src="./img/instagram.jpg" alt="twitter">
+                  </div>
+      
+                  <div class="col">
+                    <img class="img-fluid" src="./img/youtube.png" alt="twitter">
+                  </div>
+                </div>
 
+              </div>
+              
+  
+            </div>
+          </div>
+          
+        <!--Fine della sezione Social-->
         </section>
+
     </main>
     <!--Fine del main-->
 
     <!--Inizio del footer-->
-    <footer>
+    <footer class="ms_footer_bg text-white">
+      <div class="container-fluid ">
+
+        <div class="row pt-5">
+          <div class="col-12 col-lg-6">
+
+            <div class="row">
+              <div class="col-12">
+                <img class="img-fluid" src="./img/ps-footer.svg" alt="Ps logo">
+              </div>
+            </div>
+
+            <div class="row align-items-center my-4">
+              <div class="col">
+                <img class="img-fluid ms_footer_globe-img" src="./img/language-globe.svg" alt="">
+                <span>Country / Region: Italy</span>
+              </div>
+
+            </div>
+      
+          </div>
+
+          <div class="col-12 col-lg-2">
+            <ul class="ms_list-decoration">
+              <li><a class="text-decoration-none text-white" href="#">Link footer n</a></li>
+              <li><a class="text-decoration-none text-white" href="#">Link footer n</a></li>
+              <li><a class="text-decoration-none text-white" href="#">Link footer n</a></li>
+              <li><a class="text-decoration-none text-white" href="#">Link footer n</a></li>
+              <li><a class="text-decoration-none text-white" href="#">Link footer n</a></li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-lg-2">
+            <ul class="ms_list-decoration">
+              <li><a class="text-decoration-none text-white" href="#">Link footer n</a></li>
+              <li><a class="text-decoration-none text-white" href="#">Link footer n</a></li>
+              <li><a class="text-decoration-none text-white" href="#">Link footer n</a></li>
+              <li><a class="text-decoration-none text-white" href="#">Link footer n</a></li>
+              <li><a class="text-decoration-none text-white" href="#">Link footer n</a></li>
+              <li><a class="text-decoration-none text-white" href="#">Link footer n</a></li>
+              <li><a class="text-decoration-none text-white" href="#">Link footer n</a></li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-lg-2">
+            <ul class="ms_list-decoration">
+              <li><a class="text-decoration-none text-white" href="#">Link footer n</a></li>
+              <li><a class="text-decoration-none text-white" href="#">Link footer n</a></li>
+              <li><a class="text-decoration-none text-white" href="#">Link footer n</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-lg-6 mb-5">
+            <img class="ms_footer_sie-img"src="./img/sie-logo.svg" alt="SIE">
+            <p>Website ©2021 Sony Interactive Entertainment Europe Limited. Tutti i contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi registrati, grafica e immagini associati sono marchi registrati e/o materiale protetto da copyright dei rispettivi proprietari. Tutti i diritti riservati. <a href="#"class="text-white">Maggiori info</a></p>
+          </div>
+
+        </div>
+
+      </div>
 
     </footer>
 

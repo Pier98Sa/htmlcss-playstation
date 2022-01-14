@@ -1,3 +1,29 @@
+/*regole comuni*/
+.ms_text-family{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*regole per logo con scritta*/
+.ms_img-ps_plus,
+.ms_img-ps_now{
+    max-width: 300px;
+}
+
+/*regole dei background color*/
+.ms_new-releases_bg{
+    background-color: #1f1f1f;
+}
+
+.ms_ps-plus_bg{
+    background-color: #bebcbb;
+}
+
+.ms_ps-now_bg{
+    background-color: #161c3b;
+}
+
+.ms_footer_bg{
+    background-color: #00439c;
+}
 /*regole dell'header*/
 .ms_img-header{
     width: 5em;
@@ -8,8 +34,7 @@
     width: 30px;
 }
 
-
-
+/*regole del jumbotron*/
 .ms_jumbo-bg{
     background-image: url("../img/jumbo-bg.png");
     background-position: center;
@@ -19,15 +44,24 @@
     min-height: 650px;
 }
 
+/*regole new-releases*/
 
-.ms_new-releases_bg{
-    background-color: #1f1f1f;
+
+/*regole ps-plus*/
+
+
+
+/*regole di ps-now*/
+
+/*regole del footer*/
+.ms_footer_globe-img{
+    width: 20px;
 }
 
-.ms_ps-plus_bg{
-    background-color: #bebcbb;
+.ms_list-decoration{
+  list-style: none;
 }
 
-.ms_img-ps_plus{
-    max-width: 300px;
+.ms_footer_sie-img{
+    width: 100px;
 }
