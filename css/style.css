@@ -45,7 +45,13 @@
 }
 
 /*regole new-releases*/
-
+.ms_new-release-bg{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 
 /*regole ps-plus*/
 
