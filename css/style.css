@@ -44,13 +44,23 @@
     min-height: 650px;
 }
 
+/*regole della thums*/
+.ms_rounded-img{
+    border-radius: 20px;
+}
+
+.ms_thumbs-hover:hover{
+    transform: translateY(-15%);
+    border: solid 2px #0072ce;
+    padding: 3px;
+    border-radius:22px;
+}
 /*regole new-releases*/
 .ms_new-release-bg{
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover; 
 }
 
 /*regole ps-plus*/
