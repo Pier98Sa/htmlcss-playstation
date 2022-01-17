@@ -14,6 +14,20 @@
     width: 300px;
 }
 
+/*regole per i bottoni*/
+.ms_btn-dark_grey{
+    background-color: #363636;
+    color: #fff;
+}
+.ms_btn-orange{
+    background-color: #cd3d0f;
+    color: #fff;
+}
+
+.ms_btn-grey{
+    background-color: #d9dadc;
+    color: #3469e6;
+}
 /*regole dei background color*/
 .ms_new-releases_bg{
     background-color: #1f1f1f;
