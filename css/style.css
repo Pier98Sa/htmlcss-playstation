@@ -2,11 +2,16 @@
 .ms_text-family{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.ms_rounded-4{
+    border-radius: 20px;
+}
+
 /*regole per logo con scritta*/
 .ms_img-ps_plus,
 .ms_img-ps_now,
 .ms_img-new-release{
-    max-width: 300px;
+    width: 300px;
 }
 
 /*regole dei background color*/
@@ -35,6 +40,7 @@
     width: 30px;
 }
 
+
 /*regole del jumbotron*/
 .ms_jumbo-bg{
     background-image: url("../img/jumbo-bg.png");
@@ -45,19 +51,55 @@
 }
 
 .ms_jumbo-mt{
-    margin-top: 350px;
-}
-/*regole della thums*/
-.ms_rounded-img{
-    border-radius: 20px;
+    margin-top: 400px;
 }
 
+.ms_jumbo-logo{
+    width: 200px;
+}
+
+/*regole della thumbs*/
+
 .ms_thumbs-hover:hover{
-    transform: translateY(-15%);
-    border: solid 2px #0072ce;
-    padding: 3px;
-    border-radius:22px;
+    transform: translateY(-15%); 
     transition: 0.1s ;
+}
+
+.ms_border-blue{
+    border: solid 2px #fff;
+    padding: 3px;  
+}
+
+.ms_thumbs-hover:hover .ms_border-blue{
+    border-color: #0072ce;
+}
+
+.ms_border-blue.active{
+    border-color: #0072ce;
+}
+
+/*regole Products*/
+.ms_border-bottom-blue{
+    border-bottom: solid 2px #fff; 
+    
+}
+.ms_border-bottom-blue.active{
+    border-color: #0072ce;
+}
+
+.ms_border-bottom-blue.active .ms_opacity{
+    opacity:1;
+}
+.ms_border-bottom-blue:hover{
+    border-color: #0072ce;
+}
+
+.ms_opacity{
+    opacity: 0.5;
+}
+
+.ms_border-bottom-blue:hover .ms_opacity{
+    opacity: 1;
 }
 /*regole new-releases*/
 .ms_new-release-bg{
@@ -66,6 +108,7 @@
     background-repeat: no-repeat;
     background-size: cover; 
 }
+
 
 /*regole ps-plus*/
 
@@ -85,3 +128,4 @@
 .ms_footer_sie-img{
     width: 100px;
 }
+
