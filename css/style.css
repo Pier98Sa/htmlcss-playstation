@@ -22,7 +22,7 @@
     color: #fff;
     border:solid 2px  #363636;
 }
-
+    /*effetto di hover del button*/
 .ms_btn-dark_grey:hover{
     color: #fff;
     box-shadow: inset 0px 0px 0px 2px #fff; 
@@ -35,7 +35,7 @@
     border: solid 2px  #cd3d0f;
     
 }
-
+    /*effetto di hover del button*/
 .ms_btn-orange:hover{
     color: #fff;
     box-shadow: inset 0 0 0 2px #fff;
@@ -47,7 +47,7 @@
     color: #3469e6;
     border:solid 2px  #d9dadc;
 }
-
+    /*effetto di hover del button*/
 .ms_btn-grey:hover{
     color:#3469e6;
     box-shadow: inset 0 0 0 2px #fff;
@@ -59,7 +59,7 @@
     color: #fff;
     border: solid 2px  #2d64e6;
 }
-
+    /*effetto di hover del button*/
 .ms_btn-blue:hover{
     color: #fff;
     box-shadow: inset 0 0 0 2px #fff;
@@ -71,11 +71,12 @@
     color: #000;
     border: solid 2px  #f5f5f5;
 }
-
+    /*effetto di hover del button*/
 .ms_btn-white:hover{
     color: #000;
     box-shadow: inset 0 0 0 2px #000;
 }
+
 /*regole dei background color*/
 .ms_new-releases_bg{
     background-color: #1f1f1f;
@@ -93,11 +94,15 @@
     background-color: #00439c;
 }
 /*regole dell'header*/
+
+/*header top*/
 .ms_img-header{
     width: 5em;
     margin:10px;
 }
+/*header bottom*/
 
+/*re-size delle immagini dell'header bottom*/
 .ms_lens-header{
     width: 30px;
 }
@@ -105,6 +110,8 @@
 .ms_chevron{
     width: 10px;
 }
+
+/* regole dropdown items*/
 .ms_dropdown-item {
     display: block;
     width: 100%;
@@ -118,6 +125,7 @@
     border: 0;
   }
 
+/*regole per la creazione dell'elenco puntato nel dropdown menu*/
 ul li a.bullet::before {
     content: "\2022";
     color: #2b70d1;
@@ -127,11 +135,13 @@ ul li a.bullet::before {
     margin-left: -1em;
 }
 
+/*regola per far girare lo chevron quando si apre il dropdown menu*/
 a.show .ms_chevron{
     transform: rotate(180deg);
 }
 
 /*regole del jumbotron*/
+
 .ms_jumbo-bg{
     background-image: url("../img/jumbo-bg.png");
     background-position: center;
@@ -192,10 +202,6 @@ a.show .ms_chevron{
 }
 
 
-/*regole ps-plus*/
-
-
-/*regole di ps-now*/
 
 /*regole del footer*/
 .ms_footer_globe-img{
