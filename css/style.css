@@ -59,6 +59,27 @@
     width: 30px;
 }
 
+.ms_dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #000;
+    text-align: inherit;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0;
+  }
+
+ul li a.bullet::before {
+    content: "\2022";
+    color: #2b70d1;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
 
 /*regole del jumbotron*/
 .ms_jumbo-bg{
@@ -139,11 +160,5 @@
     width: 100px;
 }
 
-ul li a.bullet::before {
-    content: "\2022";
-    color: #2b70d1;
-    font-weight: bold;
-    display: inline-block; 
-    width: 1em;
-    margin-left: -1em;
-  }
+
+
