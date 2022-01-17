@@ -28,6 +28,11 @@
     background-color: #d9dadc;
     color: #3469e6;
 }
+
+.ms_btn-blue{
+    background-color: #2d64e6;
+    color: #fff;
+}
 /*regole dei background color*/
 .ms_new-releases_bg{
     background-color: #1f1f1f;
@@ -127,7 +132,6 @@
 /*regole ps-plus*/
 
 
-
 /*regole di ps-now*/
 
 /*regole del footer*/
@@ -142,4 +146,3 @@
 .ms_footer_sie-img{
     width: 100px;
 }
-
