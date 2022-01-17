@@ -85,16 +85,8 @@
 }
 
 .ms_border-blue{
-    border: solid 2px #fff;
+    border: solid 2px #0072ce;
     padding: 3px;  
-}
-
-.ms_thumbs-hover:hover .ms_border-blue{
-    border-color: #0072ce;
-}
-
-.ms_border-blue.active{
-    border-color: #0072ce;
 }
 
 /*regole Products*/
@@ -146,3 +138,12 @@
 .ms_footer_sie-img{
     width: 100px;
 }
+
+ul li a.bullet::before {
+    content: "\2022";
+    color: #2b70d1;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
