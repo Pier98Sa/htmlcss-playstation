@@ -198,6 +198,7 @@ a.show .ms_chevron{
 .ms_border-bottom-blue:hover .ms_opacity{
     opacity: 1;
 }
+
 /*regole new-releases*/
 .ms_new-release-bg{
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
